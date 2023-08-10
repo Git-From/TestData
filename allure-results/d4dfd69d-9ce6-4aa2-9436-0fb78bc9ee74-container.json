@@ -1,0 +1,1 @@
+{"uuid":"d4dfd69d-9ce6-4aa2-9436-0fb78bc9ee74","name":"com.algoworks.automationmobile.base_RR.AndroidTestCases","children":[],"befores":[{"name":"setUpAndroidDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691417539853,"stop":1691417539858}],"afters":[],"start":1691417539825,"stop":1691417539952}

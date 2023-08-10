@@ -1,0 +1,1 @@
+{"uuid":"00887c63-ba4e-4929-a11e-b312c54719b9","name":"Mobile App Test Suite","children":["162fec62-fb46-4341-a143-f3ff7a5f56bd"],"befores":[],"afters":[{"name":"quitAppiumDrivers","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691423952417,"stop":1691423952699}],"start":1691423939887,"stop":1691423952699}

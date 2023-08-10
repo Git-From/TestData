@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mobile App Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.algoworks.automationmobile.base_RR.AllureTestListener"/>
+  </listeners>
+  <test thread-count="5" name="Android Test Cases(failed)" verbose="0">
+    <classes>
+      <class name="com.algoworks.automationmobile.base_RR.ThridRockTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="quitAppiumDrivers"/>
+          <include name="testAndroidUserActions" invocation-numbers="6"/>
+          <include name="launchAppBeforeTestMethod"/>
+        </methods>
+      </class> <!-- com.algoworks.automationmobile.base_RR.ThridRockTestCases -->
+    </classes>
+  </test> <!-- Android Test Cases(failed) -->
+</suite> <!-- Failed suite [Mobile App Test Suite] -->

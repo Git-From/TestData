@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile App Test Suite">
+	<listeners>
+        <listener class-name="com.algoworks.automationmobile.base_RR.AllureTestListener" />  
+    </listeners>
+    <test name="Android Test Cases">
+        <classes>
+            <!--<class name="com.algoworks.automationmobile.base_RR.AndroidTestCases" />-->
+			<class name="com.algoworks.automationmobile.base_RR.ThridRockTestCases" />
+           <!-- <class name="com.algoworks.automationmobile.base_RR.iOSTestCases" />-->
+        </classes>
+    </test>
+</suite>

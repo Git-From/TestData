@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Mobile_App_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Mobile App Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>testng2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Mobile_App_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Mobile_App_Test_Suite" class="hide-methods failed suite-Mobile_App_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Mobile_App_Test_Suite -->
+                      <a href="#" panel-name="suite-Mobile_App_Test_Suite" class="show-methods failed suite-Mobile_App_Test_Suite"> (show)</a> <!-- show-methods failed suite-Mobile_App_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Mobile_App_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,&#039;Continue&#039;)], ...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Mobile_App_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Mobile_App_Test_Suite" class="hide-methods passed suite-Mobile_App_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Mobile_App_Test_Suite -->
+                      <a href="#" panel-name="suite-Mobile_App_Test_Suite" class="show-methods passed suite-Mobile_App_Test_Suite"> (show)</a> <!-- show-methods passed suite-Mobile_App_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Mobile_App_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,&#039;Continue&#039;)], ...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,&#039;...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,'...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Mobile_App_Test_Suite" title="com.algoworks.automationmobile.base_RR.ThridRockTestCases" class="method navigator-link" hash-for-method="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementI...)">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Mobile_App_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Mobile_App_Test_Suite" class="panel Mobile_App_Test_Suite">
+          <div class="suite-Mobile_App_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.algoworks.automationmobile.base_RR.ThridRockTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,&#039;Continue&#039;)], ...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], elementId1=//*[contains(@text,'Continue')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=//*[contains(@text,'Welcome Inceptor')], Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=//*[contains(@text,'Get Started')], appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=navigateToFirstScreenTest, automationName=UiAutomator2, action=NavigateToFirstScreen, platformName=Android, value=})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Navigation to the first screen failed.
+	at com.algoworks.automationmobile.base_RR.ThirdRockAppAction.navigateToFirstScreen(ThirdRockAppAction.java:127)
+	at com.algoworks.automationmobile.base_RR.ThridRockTestCases.testAndroidUserActions(ThridRockTestCases.java:85)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mobile_App_Test_Suite-class-failed -->
+          <div class="suite-Mobile_App_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.algoworks.automationmobile.base_RR.ThridRockTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App is Removed, automationName=UiAutomator2, action=IsAppRemoved, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App Launch and Disable Data, automationName=UiAutomator2, action=LaunchAppDisableData, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,&#039;Continue&#039;)], ...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], elementId1=//*[contains(@text,'Skip')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=com.thirdrock:id/tvHeading, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify Screen Content, automationName=UiAutomator2, action=VerifyScreenContent, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App is Installed, automationName=UiAutomator2, action=IsAppInstalled, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,&#039;...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,'...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,'Continue')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Click Continue Button, automationName=UiAutomator2, action=ClickContinueButton, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App Launch and Disable Wifi, automationName=UiAutomator2, action=LaunchAppDisableWifi, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementI...)">
+                  </a> <!-- testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementI...) -->
+                  <span class="method-name">testAndroidUserActions</span>
+                  <span class="parameters">({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementId1=//*[contains(@text,'Continue')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=//*[contains(@text,'Welcome Inceptor')], appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Click Skip Button, automationName=UiAutomator2, action=ClickSkipButton, platformName=Android, value=})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mobile_App_Test_Suite-class-passed -->
+        </div> <!-- panel Mobile_App_Test_Suite -->
+        <div panel-name="test-xml-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/rajatrawat/Documents/appium-mobile-automation/testng2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Mobile App Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.algoworks.automationmobile.base_RR.AllureTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Android Test Cases&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.algoworks.automationmobile.base_RR.ThridRockTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Android Test Cases --&gt;
+&lt;/suite&gt; &lt;!-- Mobile App Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mobile App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Android Test Cases (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mobile App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mobile App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mobile_App_Test_Suite');
+function tableData_Mobile_App_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testAndroidUserActions')
+data.setCell(0, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(0, 3, 92841);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testAndroidUserActions')
+data.setCell(1, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(1, 3, 7371);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAndroidUserActions')
+data.setCell(2, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(2, 3, 6357);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testAndroidUserActions')
+data.setCell(3, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(3, 3, 4540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testAndroidUserActions')
+data.setCell(4, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(4, 3, 472);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testAndroidUserActions')
+data.setCell(5, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(5, 3, 358);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testAndroidUserActions')
+data.setCell(6, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(6, 3, 156);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAndroidUserActions')
+data.setCell(7, 2, 'com.algoworks.automationmobile.base_RR.ThridRockTestCases')
+data.setCell(7, 3, 81);
+window.suiteTableData['Mobile_App_Test_Suite']= { tableData: data, tableDiv: 'times-div-Mobile_App_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Mobile_App_Test_Suite">
+              </div> <!-- times-div-Mobile_App_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mobile App Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mobile_App_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.algoworks.automationmobile.base_RR.ThridRockTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">48286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</span>
+                <span class="method-start">49523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">49907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</span>
+                <span class="method-start">51045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">51132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</span>
+                <span class="method-start">52312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">52477 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=, deviceName=Pixel 6...)</span>
+                <span class="method-start">53647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">54129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...)</span>
+                <span class="method-start">56099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">60644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=, elementId1=//*[contains(@text,'...)</span>
+                <span class="method-start">61815 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">68186 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], ...)</span>
+                <span class="method-start">69362 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">launchAppBeforeTestMethod</span>
+                <span class="method-start">162225 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAndroidUserActions({appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=com.thirdrock:id/tvSkip, elementI...)</span>
+                <span class="method-start">163494 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">quitAppiumDrivers</span>
+                <span class="method-start">170880 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 172.501 s <<< FAILURE! - in TestSuite
+com.algoworks.automationmobile.base_RR.ThridRockTestCases.testAndroidUserActions[{appPackage=com.thirdrock, execution=Yes, noReset=TRUE, elementId2=//*[contains(@text,'Continue')], elementId1=//*[contains(@text,'Continue')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=//*[contains(@text,'Welcome Inceptor')], Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=//*[contains(@text,'Get Started')], appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=navigateToFirstScreenTest, automationName=UiAutomator2, action=NavigateToFirstScreen, platformName=Android, value=}](7)  Time elapsed: 92.868 s  <<< FAILURE!
+java.lang.AssertionError: Navigation to the first screen failed.
+	at com.algoworks.automationmobile.base_RR.ThridRockTestCases.testAndroidUserActions(ThridRockTestCases.java:85)
+
