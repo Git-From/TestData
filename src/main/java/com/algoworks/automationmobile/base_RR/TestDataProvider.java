@@ -37,7 +37,7 @@ public class TestDataProvider {
 //			Sheet sheet = workbook.getSheet(sheetName);
 			
 			// Load the Excel file
-			String fileUrl = "https://github.com/Git-From/TestData/raw/c73bf7c4775a41a7cb6db41502df80c7bcb26fab/cc2.xlsx";
+			String fileUrl = "https://github.com/Git-From/TestData/raw/5c00dc857b12e86b2ad66b537a33fbe77e8f0573/gitapPath.xlsx";
             URL url = new URL(fileUrl);
             InputStream is = url.openStream();
             Workbook workbook = new XSSFWorkbook(is);
