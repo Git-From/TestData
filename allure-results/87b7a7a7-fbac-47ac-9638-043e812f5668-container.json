@@ -1,0 +1,1 @@
+{"uuid":"87b7a7a7-fbac-47ac-9638-043e812f5668","name":"com.algoworks.automationmobile.base_RR.ThridRockTestCases","children":[],"befores":[{"name":"setUpAndroidDriver","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691417459166,"stop":1691417459255}],"afters":[],"start":1691417447003,"stop":1691417459354}

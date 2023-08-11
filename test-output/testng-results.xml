@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-10T17:08:29 IST" name="Mobile App Test Suite" finished-at="2023-08-10T17:10:38 IST" duration-ms="129140">
+    <groups>
+    </groups>
+    <test started-at="2023-08-10T17:08:29 IST" name="Android Test Cases" finished-at="2023-08-10T17:10:38 IST" duration-ms="129140">
+      <class name="com.algoworks.automationmobile.base_RR.ThridRockTestCases">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:08:29 IST" name="setUp" finished-at="2023-08-10T17:09:23 IST" duration-ms="53749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:24 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:09:25 IST" duration-ms="1855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App Launch and Disable Data, automationName=UiAutomator2, action=LaunchAppDisableData, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:25 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:09:27 IST" duration-ms="1515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App is Installed, automationName=UiAutomator2, action=IsAppInstalled, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:27 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:09:29 IST" duration-ms="1609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App Launch and Disable Wifi, automationName=UiAutomator2, action=LaunchAppDisableWifi, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:29 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:09:30 IST" duration-ms="1742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=, elementId1=, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify App is Removed, automationName=UiAutomator2, action=IsAppRemoved, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:30 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:09:36 IST" duration-ms="5183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=//*[contains(@text,'Continue')], elementId1=//*[contains(@text,'Skip')], deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=com.thirdrock:id/tvHeading, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Verify Screen Content, automationName=UiAutomator2, action=VerifyScreenContent, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:09:36 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:10:03 IST" duration-ms="27903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=com.thirdrock:id/btnContinue, elementId1=com.thirdrock:id/btnContinue, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Click Continue Button, automationName=UiAutomator2, action=ClickContinueButton, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:10:03 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:10:31 IST" duration-ms="27614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=com.thirdrock:id/btnContinue, elementId1=com.thirdrock:id/btnContinue, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=com.thirdrock:id/etPhone, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=//*[contains(@text,'Get Started')], appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=navigateToFirstScreenTest, automationName=UiAutomator2, action=NavigateToFirstScreen, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method signature="testAndroidUserActions1(java.util.Map)[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:10:31 IST" name="testAndroidUserActions1" data-provider="thirdrockTestData" finished-at="2023-08-10T17:10:38 IST" duration-ms="6546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{appPackage=com.thirdrock, execution=Yes, noReset=FALSE, elementId2=com.thirdrock:id/tvSkip, elementId1=com.thirdrock:id/btnContinue, deviceName=Pixel 6 API 33, appPath=/Users/rajatrawat/Documents/appium-mobile-automation/app-prod-devel-release.apk, elementId4=, Sheet Name=Name: /xl/worksheets/sheet3.xml - Content Type: application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml, elementId3=com.thirdrock:id/etPhone, appActivity=com.thirdrock.view.activity.StartActivity, platformVersion=13, testMethod=Click Skip Button, automationName=UiAutomator2, action=ClickSkipButton, platformName=Android, value=}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAndroidUserActions1 -->
+        <test-method is-config="true" signature="quitAppiumDrivers()[pri:0, instance:com.algoworks.automationmobile.base_RR.ThridRockTestCases@6986bbaf]" started-at="2023-08-10T17:10:38 IST" name="quitAppiumDrivers" finished-at="2023-08-10T17:10:38 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitAppiumDrivers -->
+      </class> <!-- com.algoworks.automationmobile.base_RR.ThridRockTestCases -->
+    </test> <!-- Android Test Cases -->
+  </suite> <!-- Mobile App Test Suite -->
+</testng-results>

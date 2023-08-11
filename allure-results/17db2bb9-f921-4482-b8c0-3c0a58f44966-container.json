@@ -1,0 +1,1 @@
+{"uuid":"17db2bb9-f921-4482-b8c0-3c0a58f44966","name":"Android Test Cases","children":["d0082556-ae46-49d0-bb24-31872a102623"],"befores":[],"afters":[{"name":"quitAppiumDrivers","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691568553824,"stop":1691568554215}],"start":1691568539037,"stop":1691568554276}
